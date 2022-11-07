@@ -7,7 +7,6 @@ class Solution {
                 }
             }
         }
-
         int lastIdx = number.lastIndexOf(digit);
         return number.substring(0, lastIdx) + number.substring(lastIdx + 1);
     }
